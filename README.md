@@ -6,6 +6,11 @@
 
 brings quotes of Czech TV star Jolanda to your Linux desktop
 
+## Requirements
+
+[conky](https://github.com/brndnmtthws/conky) version 1.10 or later
+python 2
+
 ## How to run it
 
 ```
