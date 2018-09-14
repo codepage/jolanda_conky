@@ -1,5 +1,9 @@
 # jolanda_conky
 
+![Conky Preview1](https://github.com/codepage/jolanda_conky/blob/master/preview1.png)
+
+![Conky Preview2](https://github.com/codepage/jolanda_conky/blob/master/preview2.png)
+
 brings quotes of Czech TV star Jolanda to your Linux desktop
 
 ## How to run it
