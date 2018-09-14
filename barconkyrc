@@ -1,0 +1,31 @@
+conky.config={
+    update_interval = 120,
+    alignment = 'top_middle',
+    border_outer_margin = 0,
+    border_inner_margin = 0,
+    border_width = 5,
+    own_window = true,
+    own_window_type = 'desktop',
+    own_window_transparent = true,
+    -- own_window_transparent = false,
+    -- own_window_colour = '#363636',
+    -- own_window_argb_value = 200,
+    own_window_argb_visual = true,    
+    own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',
+    double_buffer = true,
+    minimum_width = 200, 
+    minimum_height = 10,
+    draw_shades = false,
+    draw_outline = false,
+    draw_borders = false,
+    default_color = '#FFFFFF',
+    use_xft = true,
+    font = 'FreeMono:size=14',
+    xftalpha = 1.0,
+    gap_x = 0,
+    gap_y = 490
+};
+
+conky.text = [[
+${alignc}${exec python main.py}
+]]
