@@ -107,7 +107,6 @@ quotes = [
 'Žijeme z huby do huby',
 ]
 
-
 s = random.choice(quotes)
-s += ('' if s[-1] in ['.', '!', '?'] else '.') + ' ~Jolanda'
-print(s)
+s += '' if s[-1] in '.!?' else '.'
+print(s + ' ~Jolanda')
